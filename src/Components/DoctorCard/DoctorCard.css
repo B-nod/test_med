@@ -1,0 +1,54 @@
+.doctor-card-container {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.doctor-card-profile-image-container {
+  margin-bottom: 10px;
+}
+
+.doctor-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.doctor-card-details h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.doctor-card-detail-speciality, .doctor-card-detail-experience {
+  font-size: 14px;
+  color: #777;
+}
+
+.doctor-card-detail-ratings {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.rating-stars {
+  color: #FFD700; /* Yellow stars */
+}
+
+.book-appointment-btn {
+  width: 180px; /* Adjust width as needed */
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.book-appointment-btn:hover {
+  background-color: #0056b3;
+}
